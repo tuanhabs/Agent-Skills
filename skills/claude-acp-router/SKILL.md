@@ -1,3 +1,20 @@
+---
+name: claude-acp-router
+description: Route coding work to Claude ACP while keeping the sandbox as the authoritative workspace and applying changes deterministically.
+version: 0.1.0
+requires_tools:
+  - enable_claude_acp_tool
+  - enable_sandbox_tools
+platforms:
+  - linux
+tags:
+  - claude
+  - acp
+  - router
+  - sandbox
+category: coding-orchestration
+---
+
 # Claude ACP router
 
 Use this workflow for code analysis, implementation, debugging and review.
